@@ -95,9 +95,6 @@ $(function(){
 			playMusic = true
 		}
 	});
-	$(".bookbutton").on('click',function(){
-		showPage1();
-	})
 
 	// page1
 	J_OpenLight.on('click',function(){
