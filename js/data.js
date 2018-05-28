@@ -1,0 +1,13 @@
+["../image/logo.png", 
+"../image/logo2.png", 
+"../image/busy.png", 
+"../image/page0_book.png", 
+"../image/page0_light.png", 
+"../image/page0_lightHead.png",  
+"../image/page2_bg.png",
+"../image/position.png",
+"../image/poster_1.png",
+"../image/poster_2.png",
+"../image/poster_3.png",
+"../image/qr-code.png",
+"../image/sprite.png"]
