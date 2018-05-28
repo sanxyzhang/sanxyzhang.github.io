@@ -5,7 +5,7 @@
 	<title>厦航空中图书馆</title>
 	<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
     <meta name="format-detection" content="telephone=no"/>
-    <meta id="viewport" name="viewport" content="width=150px" />
+    <meta id="viewport" name="viewport" content="width=750px, user-scalable=no" />
     <meta name="aplus-touch" content="1"/>
     <link rel="stylesheet" href="./../stylesheets/style.css"/>
     <script src="./../js/zepto.min.js"></script>
@@ -20,13 +20,11 @@
 	<div class="page_0 J_Page0">
 		<img src="./../image/page0_lightHead.png" alt="lightHead" class="lightHead">
 		<img src="./../image/page0_light.png" alt="light" class="light">
-		<div class="bookbutton">
-			<img src="./../image/page0_book.png" alt="book" class="book">
-		</div>
+		<img src="./../image/page0_book.png" alt="book" class="book">
 		<div class="progress">
 			<span class="progressContent J_ProgressContent"></span>
 		</div>
-		<div class="percent"><span class="J_LoadNum">100</span>%</div>
+		<div class="percent"><span class="J_LoadNum">0</span>%</div>
 		<p class="title">欢迎来到厦航空中图书馆</p>
 	</div>
 
@@ -190,7 +188,7 @@
 	<script src="./../js/html2canvas.min.js"></script>
 	<script>
 		!function(userAgent) {
-				var width = 350;
+				var width = 750;
 				var screen_w = parseInt(window.screen.width),
 				scale = screen_w / width;
 				if (/Android (\d+\.\d+)/.test(userAgent)) {

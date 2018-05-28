@@ -9,7 +9,7 @@ $(function(){
 		Page_1 = $(".J_Page1"),
 		Page_2 = $(".J_Page2"),
 		J_OpenLight = $(".J_OpenLight");
-        book=$(".bookbuttton")[0];
+
 	// page0
 	var lazyLoad = function() {
 		$.ajax({
@@ -20,7 +20,7 @@ $(function(){
 				var len = imgData.length;
 				var imgArr = [],
 				    loadingNum = 0;
-					actH5();
+
 				var loadStyle = function(url) {
 					var link = document.createElement("link");
 					link.rel = "stylesheet";
@@ -74,7 +74,7 @@ $(function(){
 		showPage1();
 	};
 
-	//开关背景音乐
+	// 开关背景音乐
 	document.addEventListener("WeixinJSBridgeReady",function() {
 		var audio = $(".J_Music")[0];
 		audio.play();
@@ -87,7 +87,6 @@ $(function(){
 		if (playMusic) {
 			$(this).removeClass(ACTIVE);
 			audio.pause();
-			
 			playMusic = false
 		} else {
 			$(this).addClass(ACTIVE);
@@ -149,7 +148,7 @@ $(function(){
                     _this.scrollTop(t);
                     window.clearInterval(timer);
                     if(opts.callback && typeof opts.callback == 'function'){
-                        opts.callback(); 
+                        opts.callback();
                     }
                     return;
                 }else{
